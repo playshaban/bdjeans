@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300&display=swap');
+
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+:root
+{
+    --main-color:rgb(0, 102, 255); 
+}
+
+body
+{
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+    box-shadow: 0 0 40px 0 grey;
+
+}
+header
+{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    overflow: hidden;
+   
+}
+.logo
+{
+    width: 50%;
+    height: 50px;
+}
+.logo img
+{
+    width: 40%;
+}
+.navbtn
+{
+    display: none;
+}
+#closenav
+{
+    display: none;
+}
+nav
+{ 
+    display:flex;
+    gap: 30px;
+    margin-top: 30px;
+    width: 50%;
+    flex-direction: row;
+}
+nav a 
+{
+    text-decoration: none;
+   
+    text-align: left;
+    color: var(--main-color);
+    font-family: 'Poppins', sans-serif;
+    height: 30px;
+    padding: 10px;
+    transition: background-color 1s linear;
+    border-radius: 5px;
+}
+a:hover
+{
+    background-color: var(--main-color) ;
+    color: white;
+}
+
+
+
+
+.section
+{
+   
+    padding: 10px;
+    margin: 0 auto;
+    
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.section .sec
+{
+    
+   position: relative;
+    padding:50px;
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+    box-shadow: 10px 1px 30px 2px grey;
+    display: flex;
+
+    flex-direction: row;
+
+    border-radius: 5px;
+
+} 
+.sec1
+{
+    background-image: url("bdbg.JPEG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+}
+.intro
+{
+    width: 50%;
+}
+
+.sec1 img
+{
+    width: 30%;
+    position: relative;
+    right:-10%;
+   
+}
+.lists
+{
+    height: 40px;
+    background-color: white;
+    padding: 0;
+    overflow: hidden;
+}
+.lists p 
+{
+    position: relative;
+    font-size: 30px;
+    margin:10px;
+    animation: list_sliding 5s ease-in-out alternate-reverse infinite;
+    
+    color: var(--main-color);
+    
+}
+@keyframes list_sliding {
+    from 
+    {
+        bottom:185px;
+    }
+    to 
+    {
+        bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+
+    body 
+    {
+        padding: 0;
+        margin: 0 auto;
+        width: 80%;
+        box-shadow: none;
+        position: relative;
+
+    }
+    header
+    {
+        flex-direction: column;
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+    }
+    .navbtn
+    {
+        display: block;
+        color: var(--main-color);
+        font-size: 25px;
+        cursor: pointer;
+    }
+    nav 
+    {
+       
+        display: none;
+        
+        flex-direction: column;
+        gap:10px;
+        
+    }
+    nav a 
+    {
+        display: none;
+        width: 120px;
+    }
+
+    .section
+    {
+        position: absolute;
+        left: -10px;
+    }
+    .section .sec 
+    {
+        
+        
+        padding: 30px;
+        width: 90%;
+        text-align: center;
+        background-image: url("bg_43_01.JPEG");
+        
+        flex-direction: column;
+        gap:10px;
+    }
+
+    .sec .intro
+    {
+        width: 100%;
+    }
+    .sec1 img 
+    {
+        width: 40%;
+        margin: 0 auto;
+        left: 0;
+    }
+    .logo
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo img 
+    {
+        width: 70%;
+    }
+   
+    
+
+
+
+}
