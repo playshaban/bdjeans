@@ -87,7 +87,7 @@ a:hover
 .section .sec
 {
     
-   position: relative;
+    position: relative;
     padding:50px;
     margin: 0 auto;
     width: 80%;
@@ -95,14 +95,13 @@ a:hover
     box-shadow: 10px 1px 30px 2px grey;
     display: flex;
 
-    flex-direction: row;
-
-    border-radius: 5px;
+    border-radius: 10px;
 
 } 
 .sec1
 {
-    background-image: url("bdbg.JPEG");
+    flex-direction: row;
+    background-image: url("bg_169_01.JPEG");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -113,13 +112,20 @@ a:hover
     width: 50%;
 }
 
-.sec1 img
-{
-    width: 30%;
-    position: relative;
-    right:-10%;
+.sec .images
+{   
+   width: 350px;
+   height: 350px;
    
+   margin: 0 auto;
+   padding: 0;
 }
+.images img 
+{
+    height: 100%;
+    margin: 0 auto;
+}
+
 .lists
 {
     height: 40px;
@@ -146,6 +152,22 @@ a:hover
     {
         bottom: 15px;
     }
+}
+
+.sec2 
+{
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-image: url("bg_169_02.JPEG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sec2 img 
+{
+    position: relative;
+    left: -10%;
 }
 
 @media screen and (max-width: 480px) {
@@ -194,29 +216,35 @@ a:hover
         position: absolute;
         left: -10px;
     }
-    .section .sec 
+    .sec
     {
-        
-        
         padding: 30px;
         width: 90%;
         text-align: center;
-        background-image: url("bg_43_01.JPEG");
-        
-        flex-direction: column;
         gap:10px;
+        flex-direction: column;
+    }
+    
+    .section .sec1
+    {
+        background-image: url("bg_43_01.JPEG"); 
+    }
+    .sec2 
+    {
+        background-image: url("bg_43_02.JPEG");
     }
 
     .sec .intro
     {
         width: 100%;
     }
-    .sec1 img 
+    .sec .images
     {
-        width: 40%;
+        width: 70%;
         margin: 0 auto;
         left: 0;
     }
+  
     .logo
     {
         width: 100%;
