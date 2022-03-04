@@ -87,14 +87,14 @@ a:hover
 .section .sec
 {
     
-   position: relative;
+    
     padding:50px;
     margin: 0 auto;
     width: 80%;
     overflow: hidden;
     box-shadow: 10px 1px 30px 2px grey;
     display: flex;
-
+    
     flex-direction: row;
 
     border-radius: 5px;
@@ -116,8 +116,7 @@ a:hover
 .sec1 img
 {
     width: 30%;
-    position: relative;
-    right:-10%;
+    margin: 0 auto;
    
 }
 .lists
@@ -146,6 +145,23 @@ a:hover
     {
         bottom: 15px;
     }
+}
+
+
+.banner
+{   position: fixed;
+    background-color: red;
+    text-align: center;
+    padding: 30px;
+   
+    margin-top: 40%;
+    margin-left: 60%;
+    
+   
+}
+.banner a
+{
+    font-family: 'Poppins', sans-serif;
 }
 
 @media screen and (max-width: 480px) {
@@ -191,7 +207,7 @@ a:hover
 
     .section
     {
-        position: absolute;
+        
         left: -10px;
     }
     .section .sec 
@@ -228,7 +244,19 @@ a:hover
     {
         width: 70%;
     }
+    
+    .banner
+{   position: fixed;
+    background-color: rgba(255, 0, 0, 0.4);
+    
+    text-align: center;
+    padding: 30px;
+    width: 50%;
+    margin-top: 100%;
+    margin-left: 20%;
+    
    
+}
     
 
 
