@@ -257,8 +257,8 @@ a:hover
     text-align: center;
     padding: 0px;
     width: 50%;
-    margin-top: 100%;
-    margin-left: 0;
+    margin-bottom: -600px;
+    margin-left:-80px;
     
    
 }
