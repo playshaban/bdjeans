@@ -408,10 +408,13 @@ a:hover
 
 .about_image
 {
-    width: 80%;
+    width: 100%;
     
 
 }
- 
+ .about_image img
+ {
+    width: 100%;
+ }
 
 }
