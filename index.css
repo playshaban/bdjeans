@@ -133,9 +133,13 @@ a:hover
 
 .sec1 img
 {
-    width: 30%;
+    width: 50%;
     margin: 0 auto;
    
+}
+.about img
+{
+    width: 50%;
 }
 .lists
 {
@@ -223,15 +227,29 @@ a:hover
 .about .intro p
 {
     color: yellow;
-    background-color: grey;
+    background-color: var(--main-color);
     width: 60%;
     
+}
+.about_image
+{
+    width: 50%;
+    margin: 0 auto;
+   
+    gap:10px;
+    text-align: center;
+
+}
+.about_image img
+{
+    width: 100%;
+    margin: 0 auto;
 }
 
 
 /* responsive starts form here */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 
 
     body 
@@ -241,6 +259,8 @@ a:hover
         width: 80%;
         box-shadow: none;
         position: relative;
+        margin: 0 auto;
+        left: -5%;
 
     }
     header
@@ -271,6 +291,12 @@ a:hover
         display: none;
         width: 120px;
     }
+    .section 
+    {
+        width: 100%;
+       
+    }
+    
 
     .section .sec 
     {
@@ -280,7 +306,8 @@ a:hover
         width: 100%;
         min-height: 50px;
         text-align: center;
-        background-image: url("bg_43_01.JPEG");
+        box-shadow: 3px 3px 10px gray;
+        border-radius: 5px;
         
         
     }
@@ -288,6 +315,7 @@ a:hover
     {
         flex-direction: column;
         gap:10px;
+        background-image: url("bg_43_01.JPEG");
     }
 
     .sec .intro
@@ -306,6 +334,7 @@ a:hover
        
         flex-direction: column-reverse;
         text-align: center;
+        background-image: url("bg_43_02.JPEG");
         gap: 30px;
         padding: 0;
     }
@@ -317,9 +346,13 @@ a:hover
         flex-direction:column;
         width: 100%;
         gap:10px;
+       
         
         
-        
+    }
+    .sec2 .intro 
+    {
+        gap: 30px;
     }
 
     .sec2 .preview .image_view
@@ -359,7 +392,7 @@ a:hover
     padding: 0px;
     width: 100%;
     
-    margin-top:120%;
+    margin-top:140%;
     margin-left:0;
     
    
@@ -369,6 +402,13 @@ a:hover
 {
     margin: 0 auto;
     text-align: center;
+}
+
+.about_image
+{
+    width: 80%;
+    
+
 }
  
 
