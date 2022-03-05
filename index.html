@@ -16,15 +16,15 @@
         $(".navbtn").on("click",function()
         {
             $(".nav").css("display","flex");
-            $(".nav a").slideToggle(1000);
+            $(".nav a").slideToggle("fast");
             $(this).hide("fast");
-            $("#closenav").show(1000);
+            $("#closenav").show("fast");
         });
         $("#closenav").on("click",function()
         {
-            $(".nav").slideToggle(1000);
-            $(".navbtn").show(1000);
-            $(".nav a").slideToggle(1000);
+            $(".nav").slideToggle("fast");
+            $(".navbtn").show("fast");
+            $(".nav a").slideToggle("fast");
            
         });
 
