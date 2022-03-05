@@ -228,7 +228,9 @@ a:hover
 {
     color: yellow;
     background-color: var(--main-color);
-    width: 60%;
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
     
 }
 .about_image
