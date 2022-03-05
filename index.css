@@ -13,7 +13,7 @@ body
     margin: 0 auto;
     padding: 10px;
     width: 80%;
-    box-shadow: 0 0 40px 0 grey;
+    box-shadow: 0 0 20px 0 grey;
 
 }
 header
@@ -97,7 +97,7 @@ a:hover
     
     flex-direction: row;
 
-    border-radius: 5px;
+    border-radius: 15px;
 
 } 
 .sec1
@@ -172,6 +172,45 @@ a:hover
 {
     font-family: 'Poppins', sans-serif;
 }
+
+
+.sec2 .preview 
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.preview .image_view
+{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 20px;
+    gap:10px;
+    
+}
+.image_view img 
+{
+   width: 70%;
+   box-shadow: 1px 1px 5px 1px var(--main-color);
+   border-radius: 5px;
+}
+.sec2 .intro .visit_items 
+{
+    background-image: linear-gradient(45deg, white, var(--main-color));
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+}
+.sec2 .intro .visit_items:hover
+{
+    box-shadow: -5px 1px 10px 2px black;
+}
+
+
+/* responsive starts form here */
 
 @media screen and (max-width: 480px) {
 
