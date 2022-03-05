@@ -295,9 +295,9 @@ a:hover
     
     text-align: center;
     padding: 0px;
-    width: 50%;
-    margin-bottom: -600px;
-    margin-left:-80px;
+    width: 100%;
+    margin-top:120%;
+    margin-left:0;
     
    
 }
