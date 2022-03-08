@@ -221,7 +221,7 @@ a:hover
 }
 .sec2 .intro .visit_items:hover
 {
-    text-shadow:5px black;
+    box-shadow:5px black;
 }
 
 .about .intro p
@@ -352,10 +352,7 @@ a:hover
         
         
     }
-    .sec2 .intro 
-    {
-        gap: 30px;
-    }
+   
 
     .sec2 .preview .image_view
     {
@@ -373,6 +370,12 @@ a:hover
     {
 
         width: 60%;
+    }
+    .sec2 .intro .visit_items 
+    {
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 10px;
     }
     .logo
     {
