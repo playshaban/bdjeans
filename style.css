@@ -269,10 +269,6 @@ footer a
 {
     text-decoration: none;
 }
-footer .navi_down
-{
-    width:30%
-}
 .footer_end
 {
     width: 30%;
@@ -460,13 +456,14 @@ footer .navi_down
     text-align: center;
     width: 100%;
  }
- .footer a , ul li 
+
+ footer a , ul li 
  {
      text-decoration: none ;
      list-style: none;
      
  }
- .page_details , .footer_end , .navi_down
+ .page_details , .footer_end
  {
      width: 80%;
      text-align: center;
@@ -478,6 +475,10 @@ footer .navi_down
      text-align: left;
      left: -10%
     
+ }
+ .footer_end img 
+ {
+     width: 30%;
  }
  .footer_end a 
  {
