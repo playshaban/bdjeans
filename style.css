@@ -247,9 +247,44 @@ a:hover
     width: 100%;
     margin: 0 auto;
 }
+footer
+{
 
-
-/* responsive starts form here */
+    
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.973);
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20%;
+}
+.page_details
+{
+    width: 30%;
+    
+}
+footer a 
+{
+    text-decoration: none;
+}
+footer .navi_down
+{
+    width:30%
+}
+.footer_end
+{
+    width: 30%;
+}
+.footer_end img
+{
+    width: 50%;
+}
+.footer_end a 
+{
+    font-size: 50px;
+}
 
 @media screen and (max-width: 500px) {
 
@@ -419,5 +454,33 @@ a:hover
  {
     width: 100%;
  }
-
+ footer
+ {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+ }
+ .footer a , ul li 
+ {
+     text-decoration: none ;
+     list-style: none;
+     
+ }
+ .page_details , .footer_end , .navi_down
+ {
+     width: 80%;
+     text-align: center;
+     margin: 0 auto;
+    
+ }
+ .page_details ul li 
+ {
+     text-align: left;
+     left: -10%
+    
+ }
+ .footer_end a 
+ {
+     font-size: 40px;
+ }
 }
