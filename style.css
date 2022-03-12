@@ -201,7 +201,7 @@ a:hover
    box-shadow: 1px 1px 5px 1px var(--main-color);
    border-radius: 5px;
 }
-.sec2 .intro .visit_items 
+.visit_items 
 {
     background-image: linear-gradient(45deg, white, var(--main-color));
     padding: 10px;
@@ -209,7 +209,7 @@ a:hover
     border-radius: 20px;
     margin: 0 auto;
 }
-.sec2 .intro .visit_items:hover
+.visit_items:hover
 {
     box-shadow:5px black;
 }
@@ -303,7 +303,7 @@ a:hover
 .contact_form input[type="button"]
 {
     cursor: pointer;
-    background-color: var(--main-color);
+    background-color: greenyellow;
 }
 
 
@@ -500,7 +500,17 @@ footer a
  {
     width: 100%;
  }
-
+.contact_form form
+ {
+     width: 100%;
+ }
+ .item_images
+{
+    display: flex;
+    flex-direction: column;
+    background-image:url("bg_169_02.JPEG");
+    gap: 10px;
+}
 
  footer
  {
