@@ -172,21 +172,6 @@ a:hover
 }
 
 
-.banner
-{   position: fixed;
-    background-color: red;
-    text-align: center;
-    padding: 30px;
-   
-    margin-top: 40%;
-    margin-left: 60%;
-    
-   
-}
-.banner a
-{
-    font-family: 'Poppins', sans-serif;
-}
 
 
 .sec2 .preview 
@@ -257,7 +242,7 @@ a:hover
 .contacts .contact_form
 {
     background-color: var(--main-color);
-    width: 40%;
+   
     margin: 0 auto;
     border-radius: 20px;
     padding: 20px;
@@ -267,11 +252,12 @@ a:hover
 {
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 .contact_form form .con
 {
-    display: inline-flex;
-    
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
 }
 .contact_form form .con:first-child
@@ -294,12 +280,18 @@ a:hover
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
 }
+
 .contacts .intro p
 {
     font-family: 'Nunito', sans-serif;
     color: blue;
 }
 
+.contacts form .msg input[type="text"]
+{
+    height: 100px;
+    padding: 10px;
+}
 
 
 
@@ -479,20 +471,7 @@ footer a
         width: 70%;
     }
     
-    .banner
-{   position: fixed;
-    height: 5%;
-    
-    text-align: center;
-    padding: 0px;
-    width: 100%;
-    
-    margin-top:140%;
-    margin-left:0;
-    
-   
-}
-    
+
 .about .intro p
 {
     margin: 0 auto;
@@ -509,6 +488,8 @@ footer a
  {
     width: 100%;
  }
+
+
  footer
  {
     flex-direction: column;

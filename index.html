@@ -28,6 +28,12 @@
            
         });
 
+        $("#submitBtn").on("click",function()
+        {
+            alert("This website is under development. You can't send a message now.You can call and ask for help");
+
+        });
+
 
     });
  
@@ -39,9 +45,7 @@
 <body>
    
     <header>
-        <div class="banner">
-            <a href="https://playshaban.tech" target="_blank">PROJECT UNDER SHABAN KHAN</a>
-        </div>
+        
         <div class="logo">
             
 
@@ -59,6 +63,7 @@
     </header>
     
     <div class="section">
+        
         
         <div class="sec1 sec">
             <div class="intro">
@@ -148,7 +153,7 @@
             </div>
             <div class="contact_form">
                 <h2>Send Us A messege <i class="fas fa-comment-alt"></i></h2>
-                <form action="#" method="post">
+                <form method="post">
                     <div class="con">
                         <label>Name</label>
                         <div>
@@ -158,18 +163,17 @@
                      </div>
                      <div class="con">
                          <label> Mobile</label>
-                         <input type="text" name="mobile" maxlength="10" placeholder="Enter 10 Digits Mobile Number">
+                         <input type="number" name="mobile" maxlength="10" placeholder="Enter 10 Digits Mobile Number">
                      </div>
                      <div class="con">
                          <label>Email</label>
                          <input type="email" name="email" placeholder="Enter Your Email">
                      </div>
-                     <div>
+                     <div class="msg">
                          <label>Message</label>
-                         
-                     </div>
-                     <input type="text" name ="message" placeholder="Write Your Message">
-                     <input type="submit" value="Send">
+                         <input type="text" name ="message" placeholder="Write Your Message">
+                    </div>
+                     <input type="button" id="submitBtn" value="Send">
                 </form>
             </div>
 
