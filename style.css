@@ -12,28 +12,32 @@ body
 {
     margin: 0 auto;
     padding: 10px;
-    width: 80%;
+    
     box-shadow: 0 0 20px 0 grey;
     scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
 }
 header
 {
-    width: 100%;
+    width: 80%;
     padding: 20px;
     display: flex;
     border-radius: 5px;
     justify-content: center;
     overflow: hidden;
-   
+    margin: 0 auto;
+    
 }
 .logo
 {
     width: 50%;
-    height: 50px;
+    
 }
 .logo img
 {
-    width: 40%;
+    width: 30%;
 }
 .navbtn
 {
@@ -84,7 +88,7 @@ a:hover
     font-family: 'Poppins', sans-serif;
    
 }
-.section .sec
+.sec
 {
     
     
@@ -94,7 +98,7 @@ a:hover
     overflow: hidden;
     box-shadow: 10px 1px 30px 2px grey;
 
-    border-radius: 15px;
+    border-radius: 2px;
 
 } 
 .sec1
@@ -241,8 +245,8 @@ a:hover
 }
 .contacts .contact_form
 {
-    background-color: var(--main-color);
-   
+    
+   background-color:rgba(0, 102, 255, 0.61) ;
     margin: 0 auto;
     border-radius: 20px;
     padding: 20px;
@@ -253,6 +257,7 @@ a:hover
     display: flex;
     flex-direction: column;
     text-align: left;
+    gap:10px;
 }
 .contact_form form .con
 {
@@ -284,15 +289,22 @@ a:hover
 .contacts .intro p
 {
     font-family: 'Nunito', sans-serif;
-    color: blue;
+    color: rgb(0, 0, 255);
 }
 
-.contacts form .msg input[type="text"]
+.contacts form textarea
 {
     height: 100px;
     padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 5px;
+    resize: none;
 }
-
+.contact_form input[type="button"]
+{
+    cursor: pointer;
+    background-color: var(--main-color);
+}
 
 
 

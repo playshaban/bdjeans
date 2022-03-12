@@ -55,7 +55,7 @@
         <nav class="nav">
              <a href=""> <i class="fas fa-home"></i> Home </a>
              <a href=""> <i class="fas fa-tshirt"></i> Items </a> 
-             <a href=""> <i class="fas fa-phone-alt"></i> contacts </a>
+             <a href="#contacts"> <i class="fas fa-phone-alt"></i> contacts </a>
              <a href="#about"> <i class="fas fa-info"></i> About </a></li>
              <a id="closenav" style="color:white; background-color:rgb(0, 102, 255);" > <i class="fas fa-times"></i> Close </a>
         </nav>
@@ -136,17 +136,17 @@
             
 
         </div>
-        <div class="sec1 sec contacts">
+        <div class="sec1 sec contacts" id="contacts">
             <div class="intro">
                 <h1>
                     Contact For Business
                 </h1>
                 <h2>Call Us For Retailer and Wholeselling Details  </h2>
                 <h3>Rakesh Jha</h3>
-                <p> <i class="fas fa-phone-alt"></i>  <a href="tel:+919811668169">+91 98116 68169</a> ; <a href="tel:+917669964999">+91 76699 64999</a> </p>
+                <p> <i class="fas fa-phone-alt"></i> <br> <a href="tel:+919811668169">+91 98116 68169</a> <br> <a href="tel:+917669964999">+91 76699 64999</a> </p>
                 
                 <h3>Raj</h3>
-                <p> <i class="fas fa-phone-alt"></i>  <a href="tel:+919555822259">+91 95558 22259</a> ; <a href="tel:+917669965999">+91 76699 65999</a> </p>
+                <p> <i class="fas fa-phone-alt"></i><br>  <a href="tel:+919555822259">+91 95558 22259</a> <br> <a href="tel:+917669965999">+91 76699 65999</a> </p>
             
     
                  
@@ -169,10 +169,10 @@
                          <label>Email</label>
                          <input type="email" name="email" placeholder="Enter Your Email">
                      </div>
-                     <div class="msg">
+                     
                          <label>Message</label>
-                         <input type="text" name ="message" placeholder="Write Your Message">
-                    </div>
+                         <textarea name="msg" placeholder="Message (Maximum 500 Characters)" required maxlength="500"></textarea>
+                    
                      <input type="button" id="submitBtn" value="Send">
                 </form>
             </div>
