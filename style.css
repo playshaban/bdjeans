@@ -218,12 +218,7 @@ a:hover
 {
     color: black;
     text-shadow: 1px 1px white;
-    background-image: url("map.png");
-    background-repeat: no-repeat;
-    background-blend-mode:color-burn;
-    background-size: cover;
-    background-color: rgba(0, 128, 0, 0.267);
-
+   background-color: rgba(0, 0, 255, 0.356);
     width: 80%;
     padding: 15px;
     border-radius: 5px;
