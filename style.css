@@ -300,7 +300,7 @@ a:hover
     border-radius: 5px;
     resize: none;
 }
-.contact_form input[type="send"]
+.contact_form input[type="submit"]
 {
     cursor: pointer;
     background-color: greenyellow;
