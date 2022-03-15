@@ -10,34 +10,15 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
-<script>
-  $(document).ready(function()
-    {
-        $(".navbtn").on("click",function()
-        {
-            $(".nav").css("display","flex");
-            $(".nav a").slideToggle("fast");
-            $(this).hide("fast");
-            $("#closenav").show("fast");
-        });
-        $("#closenav").on("click",function()
-        {
-            $(".nav").slideToggle("fast");
-            $(".navbtn").show("fast");
-            $(".nav a").slideToggle("fast");
-           
-        });
 
-
-    });
- 
-
-</script>
 </head>
 
 
 <body>
-   
+   <div class="loading">
+       <img src="bdslogo.png" alt="">
+       <p>Loading...</p>
+   </div>
     <header>
         
         <div class="logo">
@@ -69,7 +50,7 @@
                 <div class="lists">
                     <p>Quality</p>
                     <p>Style</p>
-                    <p>Best Price</p>
+                    <p >Best Price</p>
                     <p>Made In India</p>
                 </div>
                 
@@ -195,8 +176,32 @@
             <a href="#"><i class="fas fa-arrow-circle-up"></i></a>
         </div>
     </footer>
-   
-
+  
+    <script>
+        $(document).ready(function()
+          {
+              $(".loading").css("display","none");
+              $(".lists").css("display","block");
+              $(".navbtn").on("click",function()
+              {
+                  $(".nav").css("display","flex");
+                  $(".nav a").slideToggle("fast");
+                  $(this).hide("fast");
+                  $("#closenav").show("fast");
+              });
+              $("#closenav").on("click",function()
+              {
+                  $(".nav").slideToggle("fast");
+                  $(".navbtn").show("fast");
+                  $(".nav a").slideToggle("fast");
+                 
+              });
+      
+      
+          });
+       
+      
+      </script>
     
 </body>
 
