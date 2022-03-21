@@ -379,7 +379,8 @@ footer a
     {
         position: fixed;
         height: 700px;
-        width: 100%;
+        width: 110%;
+        left:-5%;
         margin: 0 auto;
     }
     header
