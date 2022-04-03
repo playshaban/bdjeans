@@ -8,24 +8,7 @@ font-family: 'Poppins', sans-serif; */
     --main-color:rgb(0, 102, 255); 
 }
 
-.loading
-{
-    display: flex;
-    position: fixed;
-    background-color: white;
-    width: 100%;
-    height:120%;
-    margin-top: -10%;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-}
-.loading img
-{
-    width: 10%;
-    margin: 0 auto;
-}
+
 
 body
 {
@@ -361,7 +344,7 @@ footer a
     font-size: 50px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 
 
     body 
@@ -385,7 +368,7 @@ footer a
     }
     header
     {
-        display: none;
+        display: flex;
         flex-direction: column;
         overflow: hidden;
         width: 100%;
